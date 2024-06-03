@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.sefs.risepolylab.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_homeprofile"
+            app:destination="@id/nav_homeprofile" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_searchinv"
+        android:name="edu.sefs.risepolylab.ui.searchinv.SearchInvFragment"
+        android:label="@string/menu_searchinv"
+        tools:layout="@layout/fragment_searchinventory" >
+        <action
+            android:id="@+id/action_nav_searchinv_to_nav_onechemical"
+            app:destination="@id/nav_onechemical" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_editinv"
+        android:name="edu.sefs.risepolylab.ui.editinv.EditInvFragment"
+        android:label="@string/menu_editinv"
+        tools:layout="@layout/fragment_editinventory" />
+
+    <fragment
+        android:id="@+id/nav_homeprofile"
+        android:name="edu.sefs.risepolylab.ui.home.HomeProfileFragment"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_homeprofile" />
+
+    <fragment
+        android:id="@+id/nav_onechemical"
+        android:name="edu.sefs.risepolylab.ui.searchinv.OneChemicalFragment"
+        android:label="Chem Info"
+        tools:layout="@layout/fragment_onechemical">
+        <argument
+            android:name="cid"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_manage"
+        android:name="edu.sefs.risepolylab.ui.manage.ManageMember"
+        android:label="Manage Member"
+        tools:layout="@layout/fragment_managemember"/>
+
+
+</navigation>

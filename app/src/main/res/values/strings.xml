@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">RISE Polymer LabManager</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log Out</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_searchinv">Search Inventory</string>
+    <string name="menu_editinv">Edit Inventory</string>
+
+    <string-array name="trainings">
+        <item>New User Orientation</item>
+        <item>Cryogen Safety</item>
+        <item>Pressure Safety</item>
+        <item>General Electrical Safety</item>
+        <item>Safe Handling-Nanoscale Matter</item>
+        <item>Chemical Hygiene and Safety</item>
+        <item>Work Safe with Compressed Gas</item>
+        <item>Fire Extinguisher Safety</item>
+        <item>Hazardous Waste Generator</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Completed</item>
+        <item>Incomplete</item>
+    </string-array>
+</resources>

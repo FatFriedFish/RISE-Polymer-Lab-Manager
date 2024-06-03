@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "461601682002",
+    "project_id": "rise-polylab-central-manager",
+    "storage_bucket": "rise-polylab-central-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461601682002:android:ee72625d3e613d113fa58b",
+        "android_client_info": {
+          "package_name": "edu.sefs.risepolylab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGGtAdjz__BQcETSTM20gO5NWQ8AQfi2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
